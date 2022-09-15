@@ -1,0 +1,74 @@
+:root{
+--background-color:#f1f1f1;
+--white-color:#fff;
+--transparent-black:rgba(0,0,0,.5);
+
+
+}
+
+body{
+   font-family: '',sans-serif;
+   background-color: var(--background-color);
+}
+
+.videos-area{
+   margin-left: 250px;
+   position: relative;
+}
+ 
+/*navbar*/
+.nav-img{
+  width: 120px;  
+}
+
+.toggle-nav , .custome-size{
+ height: 24px;
+ flex-shrink: 0;
+ pointer-events: none;
+}
+
+
+.side-link:hover{
+ background-color: aquamarine;
+}
+.nav-footer{
+   padding-right: 30px;
+   padding-left: 1rem ;
+}
+
+.link-footer{
+   padding: 0;
+   padding-right: 5px;
+   font-size: 12px;
+   font-weight: 600;
+}
+
+
+.sidebar{
+   width: 250px;
+   position: fixed;
+   height: 100%;
+   left: 0;
+   top: 30px;
+   background-color: #fff;
+   overflow-y: auto;
+   padding-top: 20px;
+   padding-bottom: 40px;
+  
+}
+
+.card{
+  text-decoration: none; 
+}
+
+.video-name{
+   font-size: 16px;
+   font-weight: bold;
+   
+   color: black;
+}
+
+.chanel-info{
+   color: gray;
+   font-size: 13px;
+}
